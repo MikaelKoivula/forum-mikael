@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "NODE_ENV=development mocha ./tests/*.test.js --exit",
+    "startDev": "NODE_ENV=development npx nodemon index.js",
+    "startProd": "NODE_ENV=production npx nodemon index.js"
+  }
+}

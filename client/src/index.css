@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: monospace;
+}
+
+.dropdown {
+    right: 10px;
+}
+
+.dropdown.show {
+    display: flex;
+}
+
+.dropdown.hide {
+    display: none;
+}
